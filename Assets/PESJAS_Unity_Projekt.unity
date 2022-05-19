@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19328
+  m_Name: pb_Mesh19350
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -535,11 +535,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: MoveSpeed
-      value: 3.7
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: SprintSpeed
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: RotationSmoothTime
-      value: 0.088
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_RootOrder
@@ -3078,7 +3082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19462
+  m_Name: pb_Mesh19490
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3708,12 +3712,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a008b27eae8784b856e2f87bd7d535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  begruessungsText: "Herzlich Willkommen im ersten Lernraum. Erkunden Sie die verschiedene
-    Lernelemente und sammeln Sie Punkte um die Ausgangst\xFCr zu \xF6ffnen"
+  begruessungsText: "ACHTUNG! Die Hochschule wurde von einem Hacker attackiert! Um
+    den Cyberangrff abzuwehren und somit die Hochschule zu retten, m\xFCssen die
+    befallenen Objekte per HTML-, CSS- und JavaScript-Code bereinigt werden!"
   lernraumName: Lernraum 1
   startPunkte: 0
   maxPunkte: 5
-  abschlussText: "Herzlichen Gl\xFCckwunsch! Sie haben den Lernraum erfolgreich abgeschlossen"
+  abschlussText: "Herzlichen Gl\xFCckwunsch! Du hast die Hochschule erfolgreich verteidigt!"
   effectOfOutline: {fileID: 1164153784}
   eingangstuer_links: {fileID: 1691560655}
   eingangstuer_rechts: {fileID: 539095222}
@@ -7970,62 +7975,6 @@ Transform:
   m_Father: {fileID: 1507161073}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &765535628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 765535630}
-  - component: {fileID: 765535629}
-  m_Layer: 0
-  m_Name: Lernraum_Logic 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &765535629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765535628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a008b27eae8784b856e2f87bd7d535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  begruessungsText: "Herzlich Willkommen im ersten Lernraum. Erkunden Sie die verschiedene
-    Lernelemente und sammeln Sie Punkte um die Ausgangst\xFCr zu \xF6ffnen"
-  lernraumName: Lernraum 1
-  startPunkte: 0
-  maxPunkte: 5
-  abschlussText: "Herzlichen Gl\xFCckwunsch! Sie haben den Lernraum erfolgreich abgeschlossen"
-  effectOfOutline: {fileID: 1164153784}
-  eingangstuer_links: {fileID: 1691560655}
-  eingangstuer_rechts: {fileID: 539095222}
-  ausgangstuer_links: {fileID: 128643077}
-  ausgangstuer_rechts: {fileID: 1784010352}
-  dialogZeile: {fileID: 1264320117}
-  kopfZeile: {fileID: 1963763766}
---- !u!4 &765535630
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765535628}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4790738, y: -8.270541, z: 0.053}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &766154466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10918,7 +10867,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18896
+  m_Name: pb_Mesh18900
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12951,7 +12900,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19468
+  m_Name: pb_Mesh19496
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17650,7 +17599,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19282
+  m_Name: pb_Mesh19304
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18136,7 +18085,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18740
+  m_Name: pb_Mesh18742
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
