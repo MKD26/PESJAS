@@ -21,7 +21,7 @@ public class KopfleisteController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textPunkte.text = "Lernelemente: " + punkteStand + " von " + maxPunkte;
+        textPunkte.text = "Bereinigte Rechner: " + punkteStand + " von " + maxPunkte;
         textLernraumName.text = nameLernraum;
     }
 
