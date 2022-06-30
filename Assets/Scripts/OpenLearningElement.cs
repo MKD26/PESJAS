@@ -36,7 +36,7 @@ public class OpenLearningElement : MonoBehaviour
         if (Keyboard.current.rKey.wasPressedThisFrame){
             learningElement.SetActive(true);
             if (wurdeBearbeitet == false){
-                logikFuerLernraum.PunkteErhoehen(1);
+                //logikFuerLernraum.PunkteErhoehen(1);
             }
             }
     }

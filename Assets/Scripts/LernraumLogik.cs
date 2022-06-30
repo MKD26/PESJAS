@@ -22,6 +22,7 @@ public class LernraumLogik : MonoBehaviour
     public KopfleisteController kopfZeile;
 
     private float alphaOutline;
+    public GameObject timer;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,8 @@ public class LernraumLogik : MonoBehaviour
                 ausgangstuer_links.zuOeffnen = true;
                 ausgangstuer_rechts.zuOeffnen = true;
                 dialogZeile.AndereDialogZeile(abschlussText);
+
+             timer.GetComponent<Timer>().gameEnde = true;
 
         }
 
