@@ -11,7 +11,7 @@ public class Collider_Text07 : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´Beeil dich! Versuche die befallenen Geräte schnellstmöglich bereinigen! Deine Zeit siehst du in der oberen linken Ecke.`";
+    private string dialogzeilenText = "´Beeil dich! Versuche die befallenen Geräte schnellstmöglich zu bereinigen! Deine Zeit siehst du in der oberen linken Ecke.`";
     private bool wurdeBearbeitet = false;
 
 

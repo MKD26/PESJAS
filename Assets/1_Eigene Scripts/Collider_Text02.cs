@@ -11,7 +11,7 @@ public class Collider_Text02 : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´Die befallenen Geräte und Systeme sind rot gekennzeichnet... Begebe dich in die Nähe, um mit dem Gerät zu interagieren!`";
+    private string dialogzeilenText = "´Die befallenen Geräte und Systeme sind rot gekennzeichnet... Begib dich in die Nähe, um mit dem Gerät zu interagieren!`";
     private bool wurdeBearbeitet = false;
 
 

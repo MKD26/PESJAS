@@ -11,7 +11,7 @@ public class Collider_Text_Endtür : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´Die Tür zum Hauptserverraum öffnet sich erst nachdem alle befallenen Geräte bereinigt wurden!`";
+    private string dialogzeilenText = "´Die Tür zum Hauptserverraum öffnet sich erst, nachdem alle befallenen Geräte bereinigt wurden!`";
     private bool wurdeBearbeitet = false;
 
 
