@@ -11,7 +11,7 @@ public class Collider_Text03 : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´Scheiss Kanacken!`";
+    private string dialogzeilenText = "´Du kannst die Hochschulgebäude durch das TH-Logo identifizieren.`";
     private bool wurdeBearbeitet = false;
 
 

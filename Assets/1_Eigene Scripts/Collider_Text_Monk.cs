@@ -11,7 +11,7 @@ public class Collider_Text_Monk : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´... PESJAS ist die beste Gruppe...`";
+    private string dialogzeilenText = "´... Schaffst du es PESJAS - The Game zu lösen? ...`";
     private bool wurdeBearbeitet = false;
 
 

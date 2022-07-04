@@ -11,7 +11,7 @@ public class Collider_Text01 : MonoBehaviour
     public DialogZeilenWriter dialogZeile;
     private GameObject kamera;
     private Outline outLinerScript;
-    private string dialogzeilenText = "´Oh nein! Die Technische Hochschule Aschaffenburg wurde gehackt... Wir benötigen deine Hilfe die Stadt von einem bösartigen Virus zu befreien!`";
+    private string dialogzeilenText = "´Zum Glück bist du hier, die Hochschule benötigt dringend deine Hilfe! Bereinige alle virusbefallenen Geräte!`";
     private bool wurdeBearbeitet = false;
 
 
